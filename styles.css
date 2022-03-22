@@ -2,12 +2,84 @@
 
 /* Body Formatting */
 
+.body  {
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto', 'sans-serif';
+}
 
 
 /* Section Formatting */
+.header, .s1, .s2, .s3, .s4, .footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+
+}
+
+.s1 {
+    
+}
+
+.s2 {
+
+}
+
+.s3 {
+    background-color: #E5E7EB;
+}
+
+.s4 {
+
+}
+
+.footer {
+
+}
+
+/* Font and Background Formatting */
+
+.wtft {
+    color: #F9FAF8;
+}
+
+.greyft {
+    color: #E5E7EB;
+}
+
+.darkft {
+    color: #1F2937;
+}
+
+.bgdark {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.s1-header {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.s1-secondary, .header-links, .img-link-txt .s4-secondary {
+    font-size: 18px;
+}
+
+.s2-header {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.quote-statement {
+    font-style: italic;
+    font-size: 36px;
+}
 
 
-
-/* Style sheet */
-
-/* Style sheet */
+/* Items sheet */
