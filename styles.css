@@ -2,29 +2,60 @@
 
 /* Body Formatting */
 
-.body  {
+body {
     display: flex;
     flex-direction: column;
-    font-family: 'roboto', 'sans-serif';
+    margin: 0px;
+    border: 0px;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 
 /* Section Formatting */
-.header, .s1, .s2, .s3, .s4, .footer {
+.header, .header-links, .s1, .s2, .link-gallery, .s3, .s4, .footer {
     display: flex;
     flex-direction: row;
 }
 
 .header {
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+}
 
+.header-links {
+    align-items: center;
+    gap: 20px;
 }
 
 .s1 {
-    
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.s1-text {
+    display: flex;
+    flex-direction: column;
+    flex: 450px 0 0;
+    gap: 5px;
+    justify-content: center;
+    align-items: left;
+}
+
+.s1-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 450px 0 0;
 }
 
 .s2 {
+    flex-direction: column;
+    align-items:center
+}
 
+.link-gallery {
+    align-items: center;
 }
 
 .s3 {
@@ -55,6 +86,7 @@
 
 .bgdark {
     background-color: #1F2937;
+    border-color: #1F2937;
 }
 
 .header-logo {
@@ -63,23 +95,64 @@
 }
 
 .s1-header {
-    font-size: 48px;
-    font-weight: 800;
+    font-size: 38px;
+    font-weight: bold;
 }
 
 .s1-secondary, .header-links, .img-link-txt .s4-secondary {
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 5px 15px;
 }
 
 .s2-header {
-    font-size: 36px;
-    font-weight: 800;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .quote-statement {
     font-style: italic;
-    font-size: 36px;
+    font-size: 26px;
 }
 
 
-/* Items sheet */
+/* Photo Formatting */
+
+.main-picture {
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+}
+
+.img-link {
+    border-radius: 10px;
+    border-color: #3882F6;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Item formatting */
+
+a:link, a:visited {
+    color: #E5E7EB;
+    border: 2px solid #3882F6;
+    text-decoration: none;
+    
+  }
+  
+ a:hover, a:active {
+    color: #E5E7EB
+  }
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    flex: 300px 0 0;
+}
+
+  
